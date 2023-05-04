@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ziziphora/pages/pages.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'کاکوتی',
       theme: ThemeData(
-
         primarySwatch: Colors.deepPurple,
+        fontFamily: 'Inter',
+        fontFamilyFallback: [ 'Persian'],
       ),
       home: const HomePage(title: 'ziziphora'),
     );
   }
 }
-

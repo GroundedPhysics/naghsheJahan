@@ -19,12 +19,15 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
             // Testing Home page
             Text(
               'Salaam',
               style: Theme.of(context).textTheme.headlineMedium,
-            )
+            ),
+            Text('کاکوتی یه برنامک شاد',
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyLarge),
           ],
         ),
       ),

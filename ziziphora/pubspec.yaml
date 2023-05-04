@@ -88,3 +88,23 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: ./assets/fonts/Inter/Inter-Regular.ttf
+        - asset: ./assets/fonts/Inter/Inter-Italic.ttf
+          style: italic
+        - asset: ./assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: ./assets/fonts/Inter/Inter-SemiBoldItalic.ttf
+          style: italic
+        - asset: ./assets/fonts/Inter/Inter-Bold.ttf
+          weight: 700
+
+    - family: Persian
+      fonts:
+        - asset: ./assets/fonts/Persian/Iranyekan.ttf
+        - asset: ./assets/fonts/Persian/Iranyekan-Bold.ttf
+          weight: 700
