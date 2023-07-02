@@ -1,6 +1,6 @@
 # Salaam  
 
-```  lutter as a portfolio.```
+```  Flutter as a portfolio.```
 
  __in order:__  
  - [ ] ziziphora 
