@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ziziphora/pages/pages.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         fontFamily: 'Inter',
-        fontFamilyFallback: [ 'Persian'],
+        fontFamilyFallback: const ['Persian'],
       ),
       home: const HomePage(title: 'ziziphora'),
     );
